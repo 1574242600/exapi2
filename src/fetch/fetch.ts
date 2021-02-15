@@ -18,7 +18,7 @@ export default function fetch(url: string, init?: RequestInit): Promise<Response
     return _fetch(url, config);
 }
 
-export function fetchEX(path: string, init?: RequestInit): Promise<string> {
+export function fetchEX(path: string, init?: RequestInit): Promise<Response> {
     const cookies = getCookies();
 
     init = Object.assign({}, 
@@ -33,8 +33,7 @@ export function fetchEX(path: string, init?: RequestInit): Promise<string> {
             }
 
             return response;
-        })
-        .then((response) => response.text());
+        });
 }
 
 export function fetchImg(url: string): Promise<Buffer> {
