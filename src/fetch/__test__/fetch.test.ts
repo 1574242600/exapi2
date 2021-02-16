@@ -21,7 +21,7 @@ describe("测试 fetch", () => {
 
     it("fetchEx('/') ", async () => {
         const text = await fetchEX("/").then(response => response.text());
-        expect(text.length > 1000).toBe(true);
+        expect(text).toBe("ok");
     }); 
 
 });
