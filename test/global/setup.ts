@@ -1,6 +1,5 @@
 import TestServer from "../testServer/testServer";
 import router from "../testServer/router";
-import { setHost, setCookies } from "../../src/fetch/config";
 
 export = async (): Promise<void> => {
     const testServer = new TestServer(router);
