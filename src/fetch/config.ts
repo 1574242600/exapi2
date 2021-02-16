@@ -25,6 +25,6 @@ export function getAgent(): RequestInit["agent"] | null {
     return agent;
 }
 
-export function getCookies(): userCookies | null {
+export function getCookies(): UserCookies | null {
     return cookies;
 }
