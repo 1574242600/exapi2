@@ -19,6 +19,14 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
         return ;
     }
 
+    //关注
+    if (path.slice(0, 8) === "/watched") {
+        res.statusCode = 200;
+        res.setHeader("Content-Type", "text/plain");
+        res.end(path);
+        return ;
+    }
+
     //画廊
     if (path.slice(0, 3) === "/g/") {
         res.statusCode = 200;
