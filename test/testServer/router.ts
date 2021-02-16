@@ -19,6 +19,14 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
         return ;
     }
 
+    //图片
+    if (path.slice(0, 3) === "/s/") {
+        res.statusCode = 200;
+        res.setHeader("Content-Type", "text/plain");
+        res.end(path);
+        return ;
+    }
+
     res.statusCode = 404;
     res.setHeader("Content-Type", "text/plain");
     res.end("error");
