@@ -15,8 +15,8 @@ export default (
     token: string,
     p = 1,  
     row : 4 | 10 | 20 | 40 = 4 ,
-    type: "ts_l" | "ts_m" = "ts_l"
+    type: "l" | "m" = "l"
 ): Promise<string> => {
-    return fetchEX(`/g/${id}/${token}/?p=${p - 1}&inline_set=tr_${row}&inline_set=${type}`)
+    return fetchEX(`/g/${id}/${token}/?p=${p - 1}&inline_set=tr_${row}-ts_${type}`)
         .then((response) => response.text());
 };
