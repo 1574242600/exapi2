@@ -27,8 +27,16 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
         return ;
     }
 
-    //图片
+    //图片查看器
     if (path.slice(0, 3) === "/s/") {
+        res.statusCode = 200;
+        res.setHeader("Content-Type", "text/plain");
+        res.end(path);
+        return ;
+    }
+
+    //多页图片查看器
+    if (path.slice(0, 5) === "/MPV/") {
         res.statusCode = 200;
         res.setHeader("Content-Type", "text/plain");
         res.end(path);
@@ -37,5 +45,5 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
 
     res.statusCode = 404;
     res.setHeader("Content-Type", "text/plain");
-    res.end("error");
+    res.end("404 error");
 };
