@@ -16,3 +16,10 @@ export interface ImageInfoResponse {
     i: string //图片链接
     s: number //不清楚，但应该是 h@h 客户端id之类的  因为点击重新加载图片会带上这个参数（用途猜测：排除该客户端）
 }
+
+export type IndexItemType = 
+    |  "m"  //最小化
+    |  "p"  //最小化 + 关注标签
+    |  "l"  //紧凑 + 标签
+    |  "e"  //扩展
+    |  "t"  //缩略图
