@@ -44,7 +44,7 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
     }
 
     //多页图片查看器
-    if (path.slice(0, 5) === "/MPV/") {
+    if (path.slice(0, 5) === "/mpv/") {
         res.statusCode = 200;
         res.setHeader("Content-Type", "text/plain");
         res.end(path);

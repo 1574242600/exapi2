@@ -11,6 +11,6 @@ export default (
     id: number,
     token: string,
 ): Promise<string> => {
-    return fetchEX(`/MPV/${id}/${token}/`)
+    return fetchEX(`/mpv/${id}/${token}/`)
         .then((response) => response.text());
 };
