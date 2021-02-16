@@ -24,6 +24,7 @@
   "homepage": "https://github.com/1574242600/exapi2#readme",
   "dependencies": {
     "@types/node-fetch": "^2.5.8",
+    "cheerio": "^1.0.0-rc.5",
     "node-fetch": "^2.6.1",
     "pre-commit": "^1.2.2"
   },
