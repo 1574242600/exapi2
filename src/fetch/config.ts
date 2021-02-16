@@ -1,9 +1,9 @@
 import { RequestInit }  from "node-fetch";
-import { userCookies } from "../types";
+import { UserCookies } from "../types";
 
 let host = "https://exhentai.org";
 let agent: RequestInit["agent"] = null;
-let cookies: userCookies = null; 
+let cookies: UserCookies = null; 
 
 export function setHost(_host: string): void {
     host = _host;
@@ -13,7 +13,7 @@ export function setAgent(_agent: RequestInit["agent"]): void {
     agent = _agent;
 }
 
-export function setCookies(_cookies: userCookies): void {
+export function setCookies(_cookies: UserCookies): void {
     cookies = _cookies;
 }
 

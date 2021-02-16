@@ -1,5 +1,5 @@
 import { fetchEX } from "../../fetch";
-import { imageInfoResponse } from "../../../types";
+import { ImageInfoResponse } from "../../../types";
 
 /**
  * 获取图片信息 json   
@@ -14,7 +14,7 @@ export default (
     page: number,
     imgKey: string,
     mpvKey: string
-): Promise<imageInfoResponse> => {
+): Promise<ImageInfoResponse> => {
     const postJson = {
         gid: id,
         imgkey: imgKey,

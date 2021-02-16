@@ -1,6 +1,6 @@
 import _fetch, { RequestInit, Response }  from "node-fetch";
 import { getHost, getCookies, getAgent } from "./config";
-import { userCookies } from "../types";
+import { UserCookies } from "../types";
 
 export default function fetch(url: string, init?: RequestInit): Promise<Response> {
     const agent = getAgent();
@@ -41,7 +41,7 @@ export function fetchImg(url: string): Promise<Buffer> {
         .then((response) => response.buffer());
 }
 
-function cookiesToString(cookies: userCookies): string {
+function cookiesToString(cookies: UserCookies): string {
     return Object.keys(cookies).map((key) => {
         return `${ key }=${ cookies[key] }`;
     }).join(";");

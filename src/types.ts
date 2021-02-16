@@ -1,10 +1,10 @@
-export interface userCookies {
+export interface UserCookies {
     ipb_member_id: number,
     ipb_pass_hash: string,
     igneous?: string
 }
 
-export interface imageInfoResponse {
+export interface ImageInfoResponse {
     d: string  //分辨率 和 图片体积   例子: "114 x 514 :: 89.64 KB"
     o: string  //不知道  但通常都是 "org" 
     lf: string //相对路径  访问后重定向到图片链接
