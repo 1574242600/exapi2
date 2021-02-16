@@ -12,8 +12,8 @@ describe("测试 getGalleryHtml()", () => {
     });
 
     it("getGalleryHtml(id, token, p, row)", async () => {
-        const text = await Html.getGalleryHtml(627844, "39dbc33ad8", 1, 4);
-        expect(text).toBe("/g/627844/39dbc33ad8/?p=0&inline_set=tr_4&inline_set=ts_l");
+        const text = await Html.getGalleryHtml(627844, "39dbc33ad8", 1, 10);
+        expect(text).toBe("/g/627844/39dbc33ad8/?p=0&inline_set=tr_10&inline_set=ts_l");
     });
 
     it("getGalleryHtml(id, token, p, row, type)", async () => {
