@@ -8,6 +8,7 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
         res.statusCode = 200;
         res.setHeader("Content-Type", "text/plain");
         res.end(path);
+        return ;
     }
 
     res.statusCode = 404;
