@@ -17,9 +17,87 @@ export interface ImageInfoResponse {
     s: number //不清楚，但应该是 h@h 客户端id之类的  因为点击重新加载图片会带上这个参数（用途猜测：排除该客户端）
 }
 
-export type IndexItemType = 
-    |  "m"  //最小化
-    |  "p"  //最小化 + 关注标签
-    |  "l"  //紧凑 + 标签
-    |  "e"  //扩展
-    |  "t"  //缩略图
+export type IndexItemType =
+    "m" |  //最小化
+    "p" |  //最小化 + 关注标签
+    "l" |  //紧凑 + 标签
+    "e" |  //扩展
+    "t";    //缩略图
+
+export type GalleryType =
+    "Doujinshi" |
+    "Manga" |
+    "Artist CG" |
+    "Game CG" |
+    "Western" |
+    "Non-H" |
+    "Image Set" |
+    "Cosplay" |
+    "Asian Porn" |
+    "Misc";
+
+export type GalleryTypeValue =
+    2 |
+    4 |
+    8 |
+    16 |
+    512 |
+    256 |
+    32 |
+    64 |
+    128 |
+    1;
+
+export const GalleryTypeMap: Record<GalleryType, GalleryTypeValue> = {
+    "Doujinshi": 2,
+    "Manga": 4,
+    "Artist CG": 8,
+    "Game CG": 16,
+    "Western": 512,
+    "Non-H": 256,
+    "Image Set": 32,
+    "Cosplay": 64,
+    "Asian Porn": 128,
+    "Misc": 1
+};
+
+export type AdvancedSearchEnableParams =
+    "name" | //是否搜索画廊名称
+    "tags" | //是否搜索标签
+    "desc" | //是否搜索描述
+    "torr" | //是否搜索种子文件名
+    "dt1" | //是否搜索低权重标签
+    "dt2"; //是否搜索投票移除了的标签
+
+export type AdvancedSearchShowParams =
+    "torr" | //是否只显示有种子的图库
+    "delete"; //是否显示已删除的库
+
+export type AdvancedSearchDisableFilterParams =
+    "lang" |    //是否禁用语言过滤
+    "uploader" |    //是否禁用上传者过滤
+    "tags";    //是否禁用标签过滤
+
+export type TagNamespace =
+    "language" |
+    "parody" |
+    "character" |
+    "group" |
+    "artist" |
+    "male" |
+    "female" |
+    "misc" |
+    "reclass";
+
+export interface SearchParams {
+    //type?: GalleryType[] | GalleryTypeValue[] | number ,
+    tags?: { [T in TagNamespace]?: string[] },
+    text: string,
+    advanced?: {
+        enable?: { [T in AdvancedSearchEnableParams]?: boolean };
+        show?: { [T in AdvancedSearchShowParams]?: boolean };
+        rating?: number         //最低评分  应为 2 - 5 之间的整数
+        between?: [number, number];    //介于 _ 和 _ 页  整数
+        disableFilter?: { [T in AdvancedSearchDisableFilterParams]?: boolean };
+    }
+}
