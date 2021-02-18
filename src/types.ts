@@ -87,10 +87,11 @@ export type TagNamespace =
     "male" |
     "female" |
     "misc" |
-    "reclass";
+    "reclass" |
+    "other";
 
 export interface SearchParams {
-    //type?: GalleryType[] | GalleryTypeValue[] | number ,
+    type?: GalleryType[] | GalleryTypeValue[] | number,
     tags?: { [T in TagNamespace]?: string[] },
     text: string,
     advanced?: {
