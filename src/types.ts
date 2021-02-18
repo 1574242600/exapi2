@@ -66,8 +66,8 @@ export type AdvancedSearchEnableParams =
     "tags" | //是否搜索标签
     "desc" | //是否搜索描述
     "torr" | //是否搜索种子文件名
-    "dt1" | //是否搜索低权重标签
-    "dt2"; //是否搜索投票移除了的标签
+    "dt1" | //是否搜索低权重标签    
+    "dt2"; //是否搜索投票移除了的标签  会覆盖dt1
 
 export type AdvancedSearchShowParams =
     "torr" | //是否只显示有种子的图库
