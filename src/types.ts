@@ -97,7 +97,7 @@ export interface SearchParams {
     advanced?: {
         enable?: { [T in AdvancedSearchEnableParams]?: boolean };
         show?: { [T in AdvancedSearchShowParams]?: boolean };
-        rating?: number         //最低评分  应为 2 - 5 之间的整数
+        rating?: 2 | 3 | 4 | 5         //最低评分
         between?: [number, number];    //介于 _ 和 _ 页  整数
         disableFilter?: { [T in AdvancedSearchDisableFilterParams]?: boolean };
     }
