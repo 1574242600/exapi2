@@ -85,6 +85,14 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
         return;
     }
 
+    //获取图片链接
+    if (path.slice(0, 12) === "/fullimg.php") {
+        res.statusCode = 302;
+        res.setHeader("Location", "ok");
+        res.end();
+        return;
+    }
+
     res.statusCode = 404;
     res.setHeader("Content-Type", "text/plain");
     res.end("404 error");

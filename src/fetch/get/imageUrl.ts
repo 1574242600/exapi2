@@ -13,6 +13,6 @@ import { fetchEX } from "../fetch";
  * @param token string 图片token
  */
 export default async (id: string, page: number, token:string): Promise<string> => {
-    const response = await fetchEX(`/fullimg.php?gid=${id}&page=${page}&key=${token}`);
+    const response = await fetchEX(`/fullimg.php?gid=${id}&page=${page}&key=${token}`, { redirect: "manual" });
     return response.headers.get("Location");
 };
