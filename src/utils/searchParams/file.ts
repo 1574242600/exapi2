@@ -8,7 +8,7 @@ export default function toFileString(
 ): string {
     const textArray = [];
 
-    if ( typeof from === "string" ) textArray.push("fs_from=1");
+    if ( typeof from === "string" ) textArray.push(`fs_from=${ from }`);
     if ( similar === true ) textArray.push("fs_similar=1");
     if ( exp === true ) textArray.push("fs_exp=1");
     if ( covers === true ) textArray.push( "fs_covers=1");
