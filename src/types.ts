@@ -104,6 +104,8 @@ export interface SearchParams {
 }
 
 export interface FileSearchParams extends SearchParams {
+    hash: string,   //文件sha1
+    from?: string,   //文件名称
     similar?: boolean  //是否使用相似性搜索
     covers?: boolean //是否仅搜索封面
     exp?: boolean  //是否显示已删除的库
