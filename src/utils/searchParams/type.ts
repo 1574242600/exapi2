@@ -8,7 +8,7 @@ import {
 export default function toTypeString(types: number): string;
 export default function toTypeString(types: GalleryType[]): string;
 export default function toTypeString(types: GalleryTypeValue[]): string;
-
+export default function toTypeString(types: GalleryType[] | GalleryTypeValue[] | number): string;
 export default function toTypeString(types: GalleryType[] | GalleryTypeValue[] | number): string {
     let total = 1023;
 
