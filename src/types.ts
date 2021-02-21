@@ -93,7 +93,7 @@ export type TagNamespace =
 export interface SearchParams {
     type?: GalleryType[] & GalleryTypeValue[] & number,
     tags?: { [T in TagNamespace]?: string[] },
-    text: string,
+    text?: string,
     advanced?: {
         enable?: { [T in AdvancedSearchEnableParams]?: boolean };
         show?: { [T in AdvancedSearchShowParams]?: boolean };
