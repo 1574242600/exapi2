@@ -18,11 +18,12 @@ export interface ImageInfoResponse {
 }
 
 export type IndexItemType =
-    "m" |  //最小化
-    "p" |  //最小化 + 关注标签
-    "l" |  //紧凑 + 标签
-    "e" |  //扩展
-    "t";    //缩略图
+ //   "m" |  //最小化
+ //   "p" |  //最小化 + 关注标签
+ //   "t" |  //缩略图
+    "l" |    //紧凑 + 标签
+    "e"     //扩展
+
 
 export type GalleryType =
     "Doujinshi" |
@@ -110,4 +111,16 @@ export interface FileSearchParams extends SearchParams {
     covers?: boolean //是否仅搜索封面
     exp?: boolean  //是否显示已删除的库
     advanced?: undefined
+}
+
+export interface LGalleryItemInfo {
+    id: string,
+    token: string,
+    type: string,
+    title: string,
+    cover: string,
+    published: string,
+    rating: number,
+    pages: number,
+    uploader: string,
 }
