@@ -13,5 +13,5 @@ test("解析 画廊类型", () => {
             eq(0)
     );
 
-    expect(_type).toBe("Doujinshi");
+    expect(_type).toBe("Image Set");
 });
