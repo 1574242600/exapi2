@@ -6,6 +6,7 @@ import title from "../../l/partial/title";
 import type from "../../l/partial/type";
 import rating from "../../l/partial/rating";
 import bt from "../../l/partial/bt";
+import cover from "../../l/partial/cover";
 
 describe("解析 画廊列表类型L HTML", () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -77,5 +78,16 @@ describe("解析 画廊列表类型L HTML", () => {
         );
     
         expect(_bt).toBe(true);
+    });
+
+    it("解析 画廊封面url", () => {
+        const _cover = cover(
+            $("table[class='itg gltc']>tbody>tr")
+                .eq(1)
+                .find("td")
+                .eq(1)
+        );
+    
+        expect(_cover).toBe("https://ehgt.org/t/27/87/27875b5d97e37fb41533aa01e090f34d886407d5-897212-982-1200-jpg_250.jpg");
     });
 });
