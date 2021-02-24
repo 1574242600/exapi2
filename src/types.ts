@@ -91,9 +91,11 @@ export type TagNamespace =
     "reclass" |
     "other";
 
+export type Tags = { [T in TagNamespace]?: string[] }
+
 export interface SearchParams {
     type?: GalleryType[] | GalleryTypeValue[] | GalleryTypeValue,
-    tags?: { [T in TagNamespace]?: string[] },
+    tags?: Tags,
     text?: string,
     advanced?: {
         enable?: { [T in AdvancedSearchEnableParams]?: boolean };
@@ -116,6 +118,7 @@ export interface FileSearchParams extends SearchParams {
 export interface LGalleryItemInfo {
     id: string,
     token: string,
+    tags: Tags,
     type: string,
     title: string,
     cover: string,
