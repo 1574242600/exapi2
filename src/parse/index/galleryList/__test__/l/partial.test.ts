@@ -4,6 +4,7 @@ import published from "../../l/partial/published";
 import beacon from "../../l/partial/beacon";
 import title from "../../l/partial/title";
 import type from "../../l/partial/type";
+import rating from "../../l/partial/rating";
 
 describe("解析 画廊列表类型L HTML", () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -55,4 +56,14 @@ describe("解析 画廊列表类型L HTML", () => {
         expect(_published).toBe(1614050100);
     });
 
+    it("解析 画廊评分", () => {
+        const _rating = rating(
+            $("table[class='itg gltc']>tbody>tr")
+                .eq(1)
+                .find("td")
+                .eq(1)
+        );
+    
+        expect(_rating).toBe(4.5);
+    });
 });
