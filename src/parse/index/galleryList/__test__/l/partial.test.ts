@@ -1,5 +1,6 @@
 import fs from "fs";
 import cheerio from "cheerio";
+import published from "../../l/partial/published";
 import beacon from "../../l/partial/beacon";
 import title from "../../l/partial/title";
 import type from "../../l/partial/type";
@@ -41,6 +42,17 @@ describe("解析 画廊列表类型L HTML", () => {
         );
     
         expect(_title).toBe("[Artist] Shibekawa");
+    });
+
+    it("解析 画廊发布时间", () => {
+        const _published = published(
+            $("table[class='itg gltc']>tbody>tr")
+                .eq(1)
+                .find("td")
+                .eq(1)
+        );
+    
+        expect(_published).toBe(1614050100);
     });
 
 });
