@@ -1,10 +1,10 @@
 import fs from "fs";
 import cheerio from "cheerio";
-import beacon from "../l/beacon/index";
-import title from "../l/title/index";
-import type from "../l/type/index";
+import beacon from "../../l/partial/beacon";
+import title from "../../l/partial/title";
+import type from "../../l/partial/type";
 
-describe("画廊列表类型 L", () => {
+describe("解析 画廊列表类型L HTML", () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     ///@ts-ignore
     const $ = cheerio.load(fs.readFileSync(global.__DATA_PATH__.html.index.l));
