@@ -8,6 +8,7 @@ import rating from "../../l/partial/rating";
 import bt from "../../l/partial/bt";
 import cover from "../../l/partial/cover";
 import uploader from "../../l/partial/uploader";
+import pages from "../../l/partial/pages";
 
 describe("解析 画廊列表类型L HTML", () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -101,5 +102,16 @@ describe("解析 画廊列表类型L HTML", () => {
         );
     
         expect(_uploader).toBe("Godboli");
+    });
+
+    it("解析 画廊页数", () => {
+        const _pages = pages(
+            $("table[class='itg gltc']>tbody>tr")
+                .eq(1)
+                .find("td")
+                .eq(3)
+        );
+    
+        expect(_pages).toBe(42);
     });
 });
