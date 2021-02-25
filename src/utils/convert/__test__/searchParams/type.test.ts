@@ -2,7 +2,7 @@ import {
     GalleryType, 
     GalleryTypeValue,
     GalleryTypeMap
-} from "../../../types";
+} from "../../../../types";
 
 import toTypeString from "../../searchParams/type";
 

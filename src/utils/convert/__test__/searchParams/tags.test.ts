@@ -1,4 +1,4 @@
-import { SearchParams } from "../../../types";
+import { SearchParams } from "../../../../types";
 import toTagsString from "../../searchParams/tags";
 
 describe("测试 toTagsString()", () => {

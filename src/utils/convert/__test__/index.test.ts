@@ -1,6 +1,5 @@
-import { SearchParams, FileSearchParams } from "../../types";
-import toSearchParamsString from "../searchParamsToString";
-
+import { SearchParams, FileSearchParams } from "../../../types";
+import { toSearchParamsString } from "../index";
 
 describe("测试 toSearchParamsString()", () => {
 

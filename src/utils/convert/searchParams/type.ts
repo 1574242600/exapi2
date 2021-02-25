@@ -2,7 +2,7 @@ import {
     GalleryType, 
     GalleryTypeValue, 
     GalleryTypeMap 
-} from "../../types";
+} from "../../../types";
 
 
 export default function toTypeString(types: number): string;

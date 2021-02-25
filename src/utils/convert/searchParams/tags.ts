@@ -1,4 +1,4 @@
-import { SearchParams } from "../../types";
+import { SearchParams } from "../../../types";
 // https://ehwiki.org/wiki/Gallery_Searching
 
 export default function toTagsString(tags: SearchParams["tags"]): string {
