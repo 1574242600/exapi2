@@ -1,22 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Tags } from "../../../../../types";
-
-function toTags(tagArray: string[]): Tags {
-    const tags: Tags = {};
-
-    tagArray.forEach((tag) => {
-        const split = tag.split(":");
-
-        const namespace = split[0] === "" ? "other" : split[0];
-        const tagName = split[1];
-        
-        if (tags[namespace] === undefined) tags[namespace] = [];
-        tags[namespace].push(tagName);
-    });
-
-    return tags;
-}
+import { toTags } from "../../../../../utils/convert/index";
 
 /**
  * 获取画廊的部分标签

@@ -1,4 +1,4 @@
-import { SearchParams, FileSearchParams } from "../../types";
+import { SearchParams, FileSearchParams, Tags } from "../../types";
 import * as SP from "./searchParams/index";
 
 export function toSearchParamsString(searchParams: SearchParams): string;
@@ -76,4 +76,24 @@ export function toRating(style: string): number {
 
     const value = px[1] === 21 ? 0.5 : 0;
     return 5 - value - px[0] / 16;
+}
+
+/**
+ * 标签数组转换到类型Tags
+ * @param tagArray string[] 标签数组 \"namespace:tagName\"[]
+ */
+export function toTags(tagArray: string[]): Tags {
+    const tags: Tags = {};
+
+    tagArray.forEach((tag) => {
+        const split = tag.split(":");
+
+        const namespace = split[0] === "" ? "other" : split[0];
+        const tagName = split[1];
+        
+        if (tags[namespace] === undefined) tags[namespace] = [];
+        tags[namespace].push(tagName);
+    });
+
+    return tags;
 }
