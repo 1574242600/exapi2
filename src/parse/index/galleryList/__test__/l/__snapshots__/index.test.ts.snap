@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`画廊列表类型L: 获取画廊条目信息 1`] = `
+Object {
+  "bt": true,
+  "cover": "https://ehgt.org/t/27/87/27875b5d97e37fb41533aa01e090f34d886407d5-897212-982-1200-jpg_250.jpg",
+  "id": "1854284",
+  "pages": 42,
+  "published": 1614050100,
+  "rating": 4.5,
+  "tags": Object {
+    "artist": Array [
+      "shibekawa",
+    ],
+    "female": Array [
+      "big ass",
+      "big breasts",
+      "dark skin",
+      "milf",
+    ],
+  },
+  "title": "[Artist] Shibekawa",
+  "token": "19459d9323",
+  "type": "Image Set",
+  "uploader": "Godboli",
+}
+`;
