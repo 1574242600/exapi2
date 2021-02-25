@@ -116,7 +116,7 @@ export interface FileSearchParams extends SearchParams {
 }
 
 export interface LGalleryItemInfo {
-    id: string,
+    id: number,
     token: string,
     tags: Tags,
     type: string,
