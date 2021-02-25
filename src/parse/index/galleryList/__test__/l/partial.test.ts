@@ -9,6 +9,7 @@ import bt from "../../l/partial/bt";
 import cover from "../../l/partial/cover";
 import uploader from "../../l/partial/uploader";
 import pages from "../../l/partial/pages";
+import tags from "../../l/partial/tags";
 
 describe("解析 画廊列表类型L HTML", () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -113,5 +114,20 @@ describe("解析 画廊列表类型L HTML", () => {
         );
     
         expect(_pages).toBe(42);
+    });
+
+    it("解析 画廊部分标签", () => {
+        const _tags = tags(
+            $("table[class='itg gltc']>tbody>tr")
+                .eq(1)
+                .find("td")
+                .eq(2)
+        );
+        
+        const namespaces = Object.keys(_tags);
+
+        expect(namespaces.length > 0).toBe(true);
+        expect(_tags[namespaces[0]] instanceof Array).toBe(true);
+        expect(_tags[namespaces[0]].length > 0).toBe(true);
     });
 });
