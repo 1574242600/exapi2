@@ -4,7 +4,7 @@
   "description": "a exHentai api",
   "main": "build/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "tsc",
     "lint": "eslint ./src --ext .ts",
     "lint:fix": "eslint ./src --ext .ts --fix"
