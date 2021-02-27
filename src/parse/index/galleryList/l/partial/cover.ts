@@ -8,10 +8,13 @@
  * @return string 画廊封面url
  */
 export default ($: any): string => {
-    const src = $.find(">div")
+    const img = $.find(">div")
         .eq(1)
-        .find(">div>img")
-        .attr("src");
+        .find(">div>img");
+
+    const src = img.attr("data-src") !== undefined
+        ? img.attr("data-src") 
+        : img.attr("src");
 
     return src;
 };
