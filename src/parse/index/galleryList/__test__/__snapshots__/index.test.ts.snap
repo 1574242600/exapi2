@@ -1,0 +1,749 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`解析画廊列表 类型L 解析 1`] = `
+Array [
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/27/87/27875b5d97e37fb41533aa01e090f34d886407d5-897212-982-1200-jpg_250.jpg",
+    "id": "1854284",
+    "pages": 42,
+    "published": 1614050100,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "shibekawa",
+      ],
+      "female": Array [
+        "big ass",
+        "big breasts",
+        "dark skin",
+        "milf",
+      ],
+    },
+    "title": "[Artist] Shibekawa",
+    "token": "19459d9323",
+    "type": "Image Set",
+    "uploader": "Godboli",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/ae/3b/ae3b9c44bde1cdbe4a1c21f68ef3461c14639d6d-355027-560-420-jpg_250.jpg",
+    "id": "1854283",
+    "pages": 339,
+    "published": 1614049980,
+    "rating": 4,
+    "tags": Object {
+      "female": Array [
+        "ahegao",
+        "big breasts",
+        "blowjob",
+        "bunny girl",
+        "elf",
+        "gokkun",
+        "nakadashi",
+        "sleeping",
+        "stockings",
+        "x-ray",
+      ],
+      "language": Array [
+        "english",
+        "translated",
+      ],
+    },
+    "title": "[LuckyStripe (SSZ)] Choujigen Player Suke-san ~Sekai o Cheat de Yarimakuri~ [English] [FC]",
+    "token": "36d8b1d220",
+    "type": "Artist CG",
+    "uploader": "RedUnit10",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/d9/b7/d9b7aa0ace3a0650bef31fa8edf20b7965a78e3d-461355-823-1280-jpg_250.jpg",
+    "id": "1854282",
+    "pages": 17,
+    "published": 1614049860,
+    "rating": 4,
+    "tags": Object {
+      "artist": Array [
+        "tinydevilhorns",
+      ],
+      "character": Array [
+        "rouge the bat",
+        "vanilla the rabbit",
+      ],
+      "female": Array [
+        "bat girl",
+        "big breasts",
+        "bunny girl",
+        "furry",
+        "lactation",
+        "yuri",
+      ],
+      "language": Array [
+        "english",
+      ],
+      "other": Array [
+        "full color",
+      ],
+      "parody": Array [
+        "sonic the hedgehog",
+      ],
+    },
+    "title": "[TinyDevilHorns] Rouge and Vanilla in: Scissors Resort WIP",
+    "token": "768804635f",
+    "type": "Western",
+    "uploader": "jackfun",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/b6/af/b6af9eaab3b6639ff6da56f0d09b2b50454bf3d1-596265-600-888-png_250.jpg",
+    "id": "1854278",
+    "pages": 44,
+    "published": 1614048780,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "minamoto",
+      ],
+      "female": Array [
+        "big ass",
+        "big breasts",
+        "milf",
+      ],
+    },
+    "title": "[Artist] Minamoto [High Res]",
+    "token": "6019b16791",
+    "type": "Image Set",
+    "uploader": "Godboli",
+  },
+  Object {
+    "bt": false,
+    "cover": "https://ehgt.org/t/53/d9/53d9e0a93ee7104e740021fc39b08bfbcd3905fe-2188667-1200-1727-png_250.jpg",
+    "id": "1854274",
+    "pages": 20,
+    "published": 1614048300,
+    "rating": 4.5,
+    "tags": Object {
+      "character": Array [
+        "shikikan",
+        "unicorn",
+      ],
+      "female": Array [
+        "blowjob",
+        "femdom",
+        "gloves",
+        "impregnation",
+        "pantyhose",
+        "pregnant",
+        "yandere",
+      ],
+      "language": Array [
+        "spanish",
+        "translated",
+      ],
+      "parody": Array [
+        "azur lane",
+      ],
+    },
+    "title": "(C94) [Hakusen (Opanchu)] Unicorn to Issho (Azur Lane) [Spanish] [AZXTranslations]",
+    "token": "19cefea5dc",
+    "type": "Doujinshi",
+    "uploader": "AZX555",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/5d/e0/5de08e5c701007bb009884ea6d3140b7c35d2033-2479681-4165-5887-png_250.jpg",
+    "id": "1854138",
+    "pages": 481,
+    "published": 1614047760,
+    "rating": 5,
+    "tags": Object {
+      "artist": Array [
+        "kobayashi kina",
+      ],
+      "language": Array [
+        "chinese",
+        "translated",
+      ],
+      "male": Array [
+        "crossdressing",
+        "males only",
+        "schoolgirl uniform",
+        "tomgirl",
+      ],
+    },
+    "title": "[Kobayashi Kina] Hatsukoi ga Bishoujo de Ikinone o Tomerarete shimatta Shounen no Hanashi. | 初戀是把自己吃得死死的美少女♂ [Chinese] [缺了一角的閃刀姬護國戰線]",
+    "token": "bd67bee31a",
+    "type": "Non-H",
+    "uploader": "futarina",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/1c/b3/1cb3b31d6059e9297627b4c3e7f1be31341bb7ad-524387-796-2000-jpg_250.jpg",
+    "id": "1854271",
+    "pages": 236,
+    "published": 1614047700,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "ookuma nekosuke",
+      ],
+      "female": Array [
+        "big breasts",
+        "bikini",
+      ],
+    },
+    "title": "[Artist] Panda Ookuma",
+    "token": "f56d1ba543",
+    "type": "Image Set",
+    "uploader": "Godboli",
+  },
+  Object {
+    "bt": false,
+    "cover": "https://ehgt.org/t/da/52/da5224eb91162975c11308afce0aa6e5c809f05f-376035-960-1457-jpg_250.jpg",
+    "id": "1854272",
+    "pages": 61,
+    "published": 1614047640,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "james lemay",
+      ],
+      "female": Array [
+        "guro",
+        "snuff",
+        "tentacles",
+      ],
+      "group": Array [
+        "spacebabecentral",
+      ],
+      "language": Array [
+        "english",
+      ],
+      "other": Array [
+        "comic",
+        "forbidden content",
+        "full color",
+      ],
+    },
+    "title": "alien winter",
+    "token": "523dcc8ea8",
+    "type": "Misc",
+    "uploader": "joker20",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/c2/a7/c2a7ced72ea969799c02ef421d67b066ec9f082a-1572643-1920-1080-jpg_250.jpg",
+    "id": "1854270",
+    "pages": 245,
+    "published": 1614047580,
+    "rating": 4.5,
+    "tags": Object {
+      "character": Array [
+        "boa hancock",
+      ],
+      "female": Array [
+        "big breasts",
+        "blindfold",
+        "blowjob",
+        "body writing",
+        "bride",
+        "huge breasts",
+        "nakadashi",
+        "paizuri",
+      ],
+      "language": Array [
+        "korean",
+        "translated",
+      ],
+      "parody": Array [
+        "one piece",
+      ],
+    },
+    "title": "(同人CG集) [ミカンベリー] 爆乳ビッチな女帝様は種付けして欲しくてたまらない (ワンピース)(kor)",
+    "token": "d3efce1bb4",
+    "type": "Artist CG",
+    "uploader": "Raiko forever",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/e6/5d/e65dfadcdacfa368799f514513d824c25470bad9-1496046-1200-1918-jpg_250.jpg",
+    "id": "1852148",
+    "pages": 69,
+    "published": 1614047580,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "aimee ria",
+      ],
+    },
+    "title": "[Pixiv] Aimee Ria (24048889)",
+    "token": "5dfaf324c9",
+    "type": "Image Set",
+    "uploader": "Pokom",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/e2/46/e24622170e028c2cff80d95cd8508b7274fa3125-1373734-4368-3300-jpg_250.jpg",
+    "id": "1854263",
+    "pages": 106,
+    "published": 1614046980,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "andava",
+        "pumpkinsinclair",
+      ],
+      "female": Array [
+        "cheerleader",
+        "piercing",
+        "small breasts",
+      ],
+      "other": Array [
+        "ffm threesome",
+        "group",
+        "western imageset",
+      ],
+    },
+    "title": "[various] Na-Na Kim (by Andava) [OC]",
+    "token": "941e95d421",
+    "type": "Western",
+    "uploader": "kikimaru024",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/8a/35/8a356b7bcd4fcdfab88771cc62bc5ef4e1ef08ce-632626-1133-1600-jpg_250.jpg",
+    "id": "1854262",
+    "pages": 19,
+    "published": 1614046920,
+    "rating": 4,
+    "tags": Object {
+      "artist": Array [
+        "bbsacon",
+      ],
+      "character": Array [
+        "caster",
+        "saber",
+      ],
+      "female": Array [
+        "tentacles",
+      ],
+      "group": Array [
+        "yomothuhirasaka",
+      ],
+      "language": Array [
+        "korean",
+        "translated",
+      ],
+      "parody": Array [
+        "fate stay night",
+      ],
+    },
+    "title": "[黄泉比良坂 (bbsacon)] Kishiou Kougyaku Seido Extra(kor)",
+    "token": "196959baad",
+    "type": "Doujinshi",
+    "uploader": "Raiko forever",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/0f/cf/0fcfc7c50809f1e5b3489c96a96612e9cd60f94a-483649-1124-1600-jpg_250.jpg",
+    "id": "1854260",
+    "pages": 36,
+    "published": 1614046800,
+    "rating": 3.5,
+    "tags": Object {
+      "artist": Array [
+        "bbsacon",
+      ],
+      "character": Array [
+        "caster",
+        "rin tosaka",
+        "saber",
+      ],
+      "female": Array [
+        "tentacles",
+      ],
+      "group": Array [
+        "yomothuhirasaka",
+      ],
+      "language": Array [
+        "korean",
+        "translated",
+      ],
+      "parody": Array [
+        "fate stay night",
+      ],
+    },
+    "title": "[黄泉比良坂 (bbsacon)] Kishiou Kougyaku Seiyatsu - Saber Anal Slave II(kor)",
+    "token": "a44f590667",
+    "type": "Doujinshi",
+    "uploader": "Raiko forever",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/9e/06/9e06303582ee5d85bf0334e6c5f59d8c0cae1eeb-598643-1352-1919-png_250.jpg",
+    "id": "1854247",
+    "pages": 23,
+    "published": 1614046620,
+    "rating": 4.5,
+    "tags": Object {
+      "female": Array [
+        "defloration",
+        "females only",
+        "incest",
+        "sister",
+        "yuri",
+      ],
+      "language": Array [
+        "english",
+        "translated",
+      ],
+      "other": Array [
+        "wajima24",
+      ],
+    },
+    "title": "[Wajima24] Futari Dake No Yakuzoku – Only Two Promises (2D Comic Magazine Kinshin Yuri Ecchi Vol.1)[English][ChoriScans]",
+    "token": "d3eb1dfcef",
+    "type": "Manga",
+    "uploader": "ChoriScans",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/cf/7b/cf7b119420f4c9c65fbb1fc54018819f4ac57866-470615-1052-1500-jpg_250.jpg",
+    "id": "1854255",
+    "pages": 26,
+    "published": 1614046620,
+    "rating": 3,
+    "tags": Object {
+      "artist": Array [
+        "bbsacon",
+      ],
+      "character": Array [
+        "caster",
+        "saber",
+      ],
+      "female": Array [
+        "tentacles",
+      ],
+      "group": Array [
+        "yomothuhirasaka",
+      ],
+      "language": Array [
+        "korean",
+        "translated",
+      ],
+      "parody": Array [
+        "fate stay night",
+      ],
+    },
+    "title": "[黄泉比良坂 (bbsacon)] Kishiou Kougyaku Seiyatsu - Saber Anal Slave(kor)",
+    "token": "de7ad0c2e9",
+    "type": "Doujinshi",
+    "uploader": "Raiko forever",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/24/a3/24a3905a8293c8fc18322f3efd752884dc85bd6e-656174-1280-1808-jpg_250.jpg",
+    "id": "1854253",
+    "pages": 28,
+    "published": 1614046620,
+    "rating": 4.5,
+    "tags": Object {
+      "character": Array [
+        "atlanta",
+        "teitoku",
+      ],
+      "female": Array [
+        "big breasts",
+        "breast feeding",
+        "gloves",
+        "sole female",
+        "twintails",
+      ],
+      "group": Array [
+        "yusaritsukata",
+      ],
+      "language": Array [
+        "chinese",
+        "translated",
+      ],
+      "male": Array [
+        "sole male",
+      ],
+      "parody": Array [
+        "kantai collection",
+      ],
+    },
+    "title": "[Yusaritsukata (Awayume)] Atlanta to no Ichinichi o... (Kantai Collection -KanColle-) [Digital] [Chinese] [胸垫汉化组]",
+    "token": "7f5267254f",
+    "type": "Doujinshi",
+    "uploader": "fdfdg",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/ab/95/ab95fa0a3f27874d5c7fd656ab3f8ab0548a0842-1301781-1754-3586-jpg_250.jpg",
+    "id": "1854254",
+    "pages": 69,
+    "published": 1614046620,
+    "rating": 4.5,
+    "tags": Object {
+      "female": Array [
+        "anal",
+        "blowjob",
+        "dark skin",
+        "gokkun",
+        "inverted nipples",
+        "muscle",
+        "nakadashi",
+        "ponytail",
+        "thick eyebrows",
+        "tomboy",
+      ],
+      "language": Array [
+        "english",
+      ],
+      "male": Array [
+        "big penis",
+      ],
+    },
+    "title": "[various] Kayla Gibson (by Pumpkinsinclair) [OC]",
+    "token": "b5f6c21cb9",
+    "type": "Western",
+    "uploader": "kikimaru024",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/a1/59/a159789110f63e097a01f67d19be8324ff7e93f3-846715-960-1280-jpg_250.jpg",
+    "id": "1853503",
+    "pages": 39,
+    "published": 1614046380,
+    "rating": 3.5,
+    "tags": Object {
+      "female": Array [
+        "bondage",
+        "tickling",
+      ],
+      "language": Array [
+        "english",
+      ],
+      "other": Array [
+        "full color",
+      ],
+    },
+    "title": "[Atelier Hachifukuan] Superheroine Yuukai Ryoujoku V [Digital] (English) (Harasho Project)",
+    "token": "0bce57df11",
+    "type": "Doujinshi",
+    "uploader": "dullian",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/2f/f5/2ff58a1e3771491ec0f2103fdacac1174e195861-847920-1917-1078-png_250.jpg",
+    "id": "1854252",
+    "pages": 52,
+    "published": 1614046260,
+    "rating": 5,
+    "tags": Object {
+      "character": Array [
+        "azazel",
+        "beelzebub",
+        "judgement",
+        "justice",
+        "lucifer",
+        "modeus",
+        "pandemonica",
+        "zdrada",
+      ],
+      "female": Array [
+        "demon girl",
+        "tail",
+      ],
+      "language": Array [
+        "english",
+      ],
+      "parody": Array [
+        "helltaker",
+      ],
+    },
+    "title": "[krekk0v] Helltaker [English]",
+    "token": "4c5bc605e8",
+    "type": "Western",
+    "uploader": "kikimaru024",
+  },
+  Object {
+    "bt": false,
+    "cover": "https://ehgt.org/t/db/73/db73d963179fadcdfc31183e7a26fa49e7ea9292-8088218-1920-1080-png_250.jpg",
+    "id": "1854241",
+    "pages": 45,
+    "published": 1614046260,
+    "rating": 3.5,
+    "tags": Object {
+      "artist": Array [
+        "inmersion",
+      ],
+      "character": Array [
+        "princess peach",
+      ],
+      "female": Array [
+        "blowjob",
+        "crown",
+        "sole female",
+      ],
+      "language": Array [
+        "english",
+      ],
+      "male": Array [
+        "first person perspective",
+      ],
+      "other": Array [
+        "3d",
+      ],
+      "parody": Array [
+        "super mario brothers",
+      ],
+    },
+    "title": "[ Inmersion ] Princess Peach - Throne's Debt #2 included!",
+    "token": "1d80f1d88e",
+    "type": "Misc",
+    "uploader": "inmersion",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/cc/18/cc1822be281db63b5e7b84a9b249220dc38a7252-9648927-2450-3500-jpg_250.jpg",
+    "id": "1854250",
+    "pages": 30,
+    "published": 1614046260,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "otama",
+      ],
+      "group": Array [
+        "atama ohanabatake",
+      ],
+      "parody": Array [
+        "fate stay night",
+      ],
+    },
+    "title": "(第9次Root 4 to 5) [Atama Ohanabatake (Otama)] Don't Touch Me (Fate/Stay Night)",
+    "token": "2383013064",
+    "type": "Doujinshi",
+    "uploader": "Supaijin",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/0c/d1/0cd15a1b74c755add529d1caf13af87ffe5b38c6-722495-1280-1081-png_250.jpg",
+    "id": "1854248",
+    "pages": 44,
+    "published": 1614046020,
+    "rating": 4,
+    "tags": Object {
+      "artist": Array [
+        "phurie",
+      ],
+      "female": Array [
+        "big balls",
+        "big penis",
+        "furry",
+        "futanari",
+        "giantess",
+        "shemale",
+      ],
+      "other": Array [
+        "western imageset",
+      ],
+      "parody": Array [
+        "my little pony friendship is magic",
+      ],
+    },
+    "title": "Mlp futa mix",
+    "token": "01abf887ec",
+    "type": "Misc",
+    "uploader": "ymir22",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/e3/c6/e3c65309d24a2c3bdd1c5ef6fbd1c225a3f300e0-1532463-2597-4338-jpg_250.jpg",
+    "id": "1853053",
+    "pages": 66,
+    "published": 1614045420,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "keis",
+      ],
+      "female": Array [
+        "kemonomimi",
+        "tail",
+        "vtuber",
+      ],
+      "other": Array [
+        "non-h imageset",
+      ],
+      "parody": Array [
+        "hololive",
+      ],
+    },
+    "title": "[Pixiv] もち (4364096)",
+    "token": "13b627b4af",
+    "type": "Non-H",
+    "uploader": "Pokom",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/a6/25/a62575a95856c4116374c41ae1273327335dc49e-109939-960-678-jpg_250.jpg",
+    "id": "1854246",
+    "pages": 330,
+    "published": 1614045060,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "mitsu",
+      ],
+      "other": Array [
+        "western imageset",
+      ],
+    },
+    "title": "Artist ::: Mitsuart",
+    "token": "9fd6063ce6",
+    "type": "Western",
+    "uploader": "ROBBOO",
+  },
+  Object {
+    "bt": true,
+    "cover": "https://ehgt.org/t/a7/be/a7be325c0783241f28cfa029c3ac567942d03c30-1018611-1720-2428-png_250.jpg",
+    "id": "1851519",
+    "pages": 3,
+    "published": 1614043980,
+    "rating": 4.5,
+    "tags": Object {
+      "artist": Array [
+        "dekosuke 18gou",
+      ],
+      "character": Array [
+        "klara",
+      ],
+      "female": Array [
+        "ahegao",
+        "anal",
+        "big breasts",
+        "blowjob",
+        "sole female",
+      ],
+      "language": Array [
+        "english",
+        "translated",
+      ],
+      "male": Array [
+        "big penis",
+        "sole male",
+      ],
+      "parody": Array [
+        "pokemon",
+      ],
+    },
+    "title": "[Dekosuke] Shingao Kawaigari Kurara-san | Klara looks after the newcomer (Pokémon) [English] {Doujins.com}",
+    "token": "7994dd9b4f",
+    "type": "Doujinshi",
+    "uploader": "hobohobo",
+  },
+]
+`;
