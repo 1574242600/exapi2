@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`解析画廊列表 类型L 解析 1`] = `
+exports[`解析索引html: 画廊列表 类型L 1`] = `
 Array [
   Object {
     "bt": true,
