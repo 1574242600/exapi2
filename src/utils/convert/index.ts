@@ -3,7 +3,7 @@ import * as SP from "./searchParams/index";
 
 export function toSearchParamsString(searchParams: SearchParams): string;
 export function toSearchParamsString(searchParams: FileSearchParams): string;
-export function toSearchParamsString(searchParams: SearchParams | FileSearchParams);
+export function toSearchParamsString(searchParams: SearchParams | FileSearchParams): string;
 export function toSearchParamsString(searchParams: SearchParams | FileSearchParams): string {
     const query: string[] = [];
 
