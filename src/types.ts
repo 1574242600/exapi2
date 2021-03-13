@@ -21,8 +21,8 @@ export type IndexItemType =
  //   "m" |  //最小化
  //   "p" |  //最小化 + 关注标签
  //   "t" |  //缩略图
-    "l" |    //紧凑 + 标签
-    "e"     //扩展
+    "l"     //紧凑 + 标签
+//   "e"     //扩展
 
 
 export type GalleryType =
@@ -127,4 +127,11 @@ export interface LGalleryItemInfo {
     rating: number,
     pages: number,
     uploader: string,
+}
+
+export interface IndexData {
+    total: number,
+    pages: number,
+    filter: number,
+    list: LGalleryItemInfo[],
 }
