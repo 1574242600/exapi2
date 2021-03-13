@@ -4,7 +4,7 @@
 import { toStringTime } from "../../../../../utils/convert/index" ;
 
 /**
- * 获取画廊发布时间
+ * 解析索引html: 画廊发布时间
  * 
  * @param $ Cheerio  画廊发布时间 \<td\> 
  * @return number 画廊发布时间戳 (UTC±0)

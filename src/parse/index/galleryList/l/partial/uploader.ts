@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * 获取画廊上传者
+ * 解析索引html: 画廊上传者
  * 
  * @param $ Cheerio  上传者 \<td\> 
  * @return string 上传者id

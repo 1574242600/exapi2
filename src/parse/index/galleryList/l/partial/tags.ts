@@ -4,7 +4,7 @@ import { Tags } from "../../../../../types";
 import { toTags } from "../../../../../utils/convert/index";
 
 /**
- * 获取画廊的部分标签
+ * 解析索引html: 画廊的部分标签
  * 
  * @param $ Cheerio  标题 \<td\> 
  * @return Tags 部分标签

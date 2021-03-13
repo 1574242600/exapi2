@@ -8,7 +8,7 @@ const parseListClass = {
 };
 
 /**
- * 获取画廊列表信息
+ * 解析索引html: 画廊列表信息
  * 
  * @param $ Cheerio.Root root
  * @param type IndexItemType 画廊条目类型

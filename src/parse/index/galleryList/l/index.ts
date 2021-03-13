@@ -4,7 +4,7 @@ import { LGalleryItemInfo } from "../../../../types";
 import * as parsePartial from "./partial/index";
 
 /**
- * 获取画廊条目信息
+ * 解析索引html: 画廊条目信息
  * 
  * @param $ Cheerio  画廊条目 \<tr\> 
  * @return string 画廊条目信息

@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * 获取画廊 id 和 token
+ * 解析画廊 id 和 token
  * 
  * @param $ Cheerio  画廊标题 \<td\> 
  * @return [number, string] 画廊 id 和 token

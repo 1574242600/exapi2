@@ -6,8 +6,8 @@ import parseGalleryList from "../index";
 ///@ts-ignore
 const $ = cheerio.load(fs.readFileSync(global.__DATA_PATH__.html.index.l));
 
-describe("解析画廊列表", () => {
-    it("类型L 解析", () => {
+describe("解析索引html: 画廊列表", () => {
+    it("类型L", () => {
         expect(parseGalleryList($)).toMatchSnapshot();
     });
 });

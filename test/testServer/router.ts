@@ -85,7 +85,7 @@ export default (request: http.IncomingMessage, res: http.ServerResponse): void =
         return;
     }
 
-    //获取图片链接
+    //原图
     if (path.slice(0, 12) === "/fullimg.php") {
         res.statusCode = 302;
         res.setHeader("Location", "ok");

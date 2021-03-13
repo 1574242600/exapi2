@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * 获取画廊封面
+ * 解析索引html: 画廊封面
  * 
  * @param $ Cheerio  画廊发布时间 \<td\> 
  * @return string 画廊封面url

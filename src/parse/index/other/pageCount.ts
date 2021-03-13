@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * 获取当前搜索结果的总页数
+ * 解析索引html: 当前搜索结果的总页数
  * 
  * @param $ Cheerio.Root root
  * @return number 总页数

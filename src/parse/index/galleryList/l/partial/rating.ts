@@ -4,7 +4,7 @@
 import { toRating } from "../../../../../utils/convert";
 
 /**
- * 获取画廊大致的评分
+ * 解析索引html: 画廊大致的评分
  * 
  * @param $ Cheerio  画廊发布时间 \<td\> 
  * @return number 画廊评分

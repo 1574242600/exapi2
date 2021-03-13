@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * 获取画廊页数
+ * 解析索引html: 画廊页数
  * 
  * @param $ Cheerio  上传者 \<td\> 
  * @return number 画廊页数

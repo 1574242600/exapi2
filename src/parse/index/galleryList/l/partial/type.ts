@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * 获取画廊类型
+ * 解析索引html: 画廊类型
  * 
  * @param $ Cheerio  画廊类型 \<td\> 
  * @return string 画廊类型

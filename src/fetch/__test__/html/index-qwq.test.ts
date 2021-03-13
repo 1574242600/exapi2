@@ -11,8 +11,8 @@ describe("测试 getIndexHtml()", () => {
         expect(text).toBe("/?page=1&inline_set=dm_l");
     });
 
-    it ("getIndexHtml(page, type)", async () => {
+    /* it ("getIndexHtml(page, type)", async () => {
         const text = await Html.getIndexHtml(2, "e");
         expect(text).toBe("/?page=1&inline_set=dm_e");
-    });
+    }); */
 });
