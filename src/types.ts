@@ -1,7 +1,14 @@
+import { RequestInit }  from "node-fetch";
+
 export interface UserCookies {
     ipb_member_id: number,
     ipb_pass_hash: string,
     igneous?: string
+}
+export interface ClientInit {
+    host?: string,
+    cookies?: UserCookies,
+    agent?: RequestInit["agent"],
 }
 
 export interface ImageInfoResponse {
