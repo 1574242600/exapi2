@@ -1,6 +1,6 @@
 jest.setTimeout(10000);
 
-describe("测试 fetch", () => {
+describe("测试 Client", () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     ///@ts-ignore
     const Client = global.Client;
