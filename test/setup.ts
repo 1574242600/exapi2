@@ -6,7 +6,11 @@ import Client from "../src/request/Client";
 global.__DATA_PATH__ = {
     html: {
         index: {
-            l: `${__dirname}/data/html/index/l/index.html`
+            l: `${__dirname}/data/html/index/l.html`
+        },
+        gallery: {
+            m: `${__dirname}/data/html/gallery/m.html`,
+            l: `${__dirname}/data/html/gallery/l.html`
         }
     }
 };
