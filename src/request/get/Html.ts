@@ -1,5 +1,5 @@
 import Client from "../Client";
-import { IndexItemType } from "../../types";
+import { IndexItemType, ThumbnailType } from "../../types";
 
 export default class Html {
     private Client: Client;
@@ -23,7 +23,7 @@ export default class Html {
         token: string,
         p = 1,
         row: 4 | 10 | 20 | 40 = 4,
-        type: "l" | "m" = "l"
+        type: ThumbnailType = "l"
     ): Promise<string> {
 
         return this.Client.requestEX(`/g/${id}/${token}/?p=${p - 1}&inline_set=tr_${row}-ts_${type}`)

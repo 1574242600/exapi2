@@ -31,6 +31,7 @@ export type IndexItemType =
     "l"     //紧凑 + 标签
 //   "e"     //扩展
 
+export type ThumbnailType = "l" | "m" //l 大图， m 长图
 
 export type GalleryType =
     "Doujinshi" |
