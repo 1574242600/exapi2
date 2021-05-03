@@ -4,10 +4,10 @@
 /**
  * 解析索引html: 画廊类型
  * 
- * @param $ Cheerio  画廊类型 \<td\> 
+ * @param td Cheerio  画廊类型 \<td\> 
  * @return string 画廊类型
  */
-export default ($: any): string => {
-    const type = $.find("div").text();
+export default (td: any): string => {
+    const type = td.find("div").text();
     return type;
 };

@@ -4,11 +4,11 @@
 /**
  * 解析索引html: 画廊页数
  * 
- * @param $ Cheerio  上传者 \<td\> 
+ * @param td Cheerio  上传者 \<td\> 
  * @return number 画廊页数
  */
-export default ($: any): number => {
-    const text = $.find("div")
+export default (td: any): number => {
+    const text = td.find("div")
         .eq(1)
         .text();
 

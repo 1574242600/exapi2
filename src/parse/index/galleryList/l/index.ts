@@ -6,16 +6,16 @@ import * as parsePartial from "./partial/index";
 /**
  * 解析索引html: 画廊条目信息
  * 
- * @param $ Cheerio  画廊条目 \<tr\> 
+ * @param tr Cheerio  画廊条目 \<tr\> 
  * @return string 画廊条目信息
  */
-export default function parseGalleryItem($: any): LGalleryItemInfo {
-    const tr = $.children();
+export default function parseGalleryItem(tr: any): LGalleryItemInfo {
+    const trChildren = tr.children();
 
-    const typeTd = tr.eq(0);
-    const publishedTd = tr.eq(1);
-    const titleTd = tr.eq(2);
-    const uploaderTd = tr.eq(3);
+    const typeTd = trChildren.eq(0);
+    const publishedTd = trChildren.eq(1);
+    const titleTd = trChildren.eq(2);
+    const uploaderTd = trChildren.eq(3);
 
     const [ id, token ] = parsePartial.beacon(titleTd);
 

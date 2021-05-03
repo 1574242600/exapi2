@@ -6,11 +6,11 @@ import { toTags } from "../../../../../utils/convert/index";
 /**
  * 解析索引html: 画廊的部分标签
  * 
- * @param $ Cheerio  标题 \<td\> 
+ * @param td Cheerio  标题 \<td\> 
  * @return Tags 部分标签
  */
-export default ($: any): Tags => {
-    const tagArray = $.find("a>div")
+export default (td: any): Tags => {
+    const tagArray = td.find("a>div")
         .eq(1)
         .children()
         .map((_, el) => el.attribs.title)

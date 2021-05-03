@@ -4,10 +4,10 @@
 /**
  * 解析索引html: 画廊上传者
  * 
- * @param $ Cheerio  上传者 \<td\> 
+ * @param td Cheerio  上传者 \<td\> 
  * @return string 上传者id
  */
-export default ($: any): string => {
-    const uploader = $.find(">div>a").text();
+export default (td: any): string => {
+    const uploader = td.find(">div>a").text();
     return uploader;
 };

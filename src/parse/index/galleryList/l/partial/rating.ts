@@ -6,11 +6,11 @@ import { toRating } from "../../../../../utils/convert";
 /**
  * 解析索引html: 画廊大致的评分
  * 
- * @param $ Cheerio  画廊发布时间 \<td\> 
+ * @param td Cheerio  画廊发布时间 \<td\> 
  * @return number 画廊评分
  */
-export default ($: any): number => {
-    const style = $.find(">div")
+export default (td: any): number => {
+    const style = td.find(">div")
         .eq(2)
         .find(">div")
         .eq(1)

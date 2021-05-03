@@ -4,11 +4,11 @@
 /**
  * 判断画廊是否有种子
  * 
- * @param $ Cheerio  画廊发布时间 \<td\> 
+ * @param td Cheerio  画廊发布时间 \<td\> 
  * @return boolean 
  */
-export default ($: any): boolean => {
-    const isHave = $.find(">div")
+export default (td: any): boolean => {
+    const isHave = td.find(">div")
         .eq(2)
         .find(">div")
         .eq(2)

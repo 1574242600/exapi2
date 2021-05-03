@@ -4,11 +4,11 @@
 /**
  * 解析索引html: 画廊封面
  * 
- * @param $ Cheerio  画廊发布时间 \<td\> 
+ * @param td Cheerio  画廊发布时间 \<td\> 
  * @return string 画廊封面url
  */
-export default ($: any): string => {
-    const img = $.find(">div")
+export default (td: any): string => {
+    const img = td.find(">div")
         .eq(1)
         .find(">div>img");
 
