@@ -11,7 +11,7 @@ const parseListClass = {
  * 解析索引html: 画廊列表信息
  * 
  * @param $ Cheerio.Root root
- * @param type IndexItemType 画廊条目类型
+ * @param type valueOf<IndexItemTypeEnum> 画廊条目类型
  * @return LGalleryItemInfo 画廊列表信息
  */
 export default function galleryList($: any, type?: "l"): LGalleryItemInfo[];

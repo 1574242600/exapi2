@@ -1,5 +1,7 @@
 import { RequestInit }  from "node-fetch";
 
+//export type valueOf<T> = T[keyof T];
+
 export interface UserCookies {
     ipb_member_id: number,
     ipb_pass_hash: string,
@@ -24,14 +26,23 @@ export interface ImageInfoResponse {
     s: number //不清楚，但应该是 h@h 客户端id之类的  因为点击重新加载图片会带上这个参数（用途猜测：排除该客户端）
 }
 
-export type IndexItemType =
- //   "m" |  //最小化
- //   "p" |  //最小化 + 关注标签
- //   "t" |  //缩略图
+export type IndexItemType = 
+//   "m" |  //最小化
+//   "p" |  //最小化 + 关注标签
+//   "t" |  //缩略图
     "l"     //紧凑 + 标签
 //   "e"     //扩展
 
-export type ThumbnailType = "l" | "m" //l 大图， m 长图
+export const enum IndexItemTypeEnum {
+    COMPACT = "l" 
+}
+
+export type ThumbnailType = "m" | "l" //m 长图 l 大图
+
+export const enum ThumbnailTypeEnum {
+    NORMAL = "m",
+    LARGE = "l"
+}
 
 export type GalleryType =
     "Doujinshi" |
