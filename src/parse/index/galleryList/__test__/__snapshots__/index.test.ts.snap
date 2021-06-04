@@ -3,8 +3,8 @@
 exports[`解析索引html: 画廊列表 类型L 1`] = `
 Array [
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/27/87/27875b5d97e37fb41533aa01e090f34d886407d5-897212-982-1200-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854284",
     "pages": 42,
     "published": 1614050100,
@@ -26,8 +26,8 @@ Array [
     "uploader": "Godboli",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/ae/3b/ae3b9c44bde1cdbe4a1c21f68ef3461c14639d6d-355027-560-420-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854283",
     "pages": 339,
     "published": 1614049980,
@@ -56,8 +56,8 @@ Array [
     "uploader": "RedUnit10",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/d9/b7/d9b7aa0ace3a0650bef31fa8edf20b7965a78e3d-461355-823-1280-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854282",
     "pages": 17,
     "published": 1614049860,
@@ -94,8 +94,8 @@ Array [
     "uploader": "jackfun",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/b6/af/b6af9eaab3b6639ff6da56f0d09b2b50454bf3d1-596265-600-888-png_250.jpg",
+    "haveBt": true,
     "id": "1854278",
     "pages": 44,
     "published": 1614048780,
@@ -116,8 +116,8 @@ Array [
     "uploader": "Godboli",
   },
   Object {
-    "bt": false,
     "cover": "https://ehgt.org/t/53/d9/53d9e0a93ee7104e740021fc39b08bfbcd3905fe-2188667-1200-1727-png_250.jpg",
+    "haveBt": false,
     "id": "1854274",
     "pages": 20,
     "published": 1614048300,
@@ -150,8 +150,8 @@ Array [
     "uploader": "AZX555",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/5d/e0/5de08e5c701007bb009884ea6d3140b7c35d2033-2479681-4165-5887-png_250.jpg",
+    "haveBt": true,
     "id": "1854138",
     "pages": 481,
     "published": 1614047760,
@@ -177,8 +177,8 @@ Array [
     "uploader": "futarina",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/1c/b3/1cb3b31d6059e9297627b4c3e7f1be31341bb7ad-524387-796-2000-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854271",
     "pages": 236,
     "published": 1614047700,
@@ -198,8 +198,8 @@ Array [
     "uploader": "Godboli",
   },
   Object {
-    "bt": false,
     "cover": "https://ehgt.org/t/da/52/da5224eb91162975c11308afce0aa6e5c809f05f-376035-960-1457-jpg_250.jpg",
+    "haveBt": false,
     "id": "1854272",
     "pages": 61,
     "published": 1614047640,
@@ -231,8 +231,8 @@ Array [
     "uploader": "joker20",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/c2/a7/c2a7ced72ea969799c02ef421d67b066ec9f082a-1572643-1920-1080-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854270",
     "pages": 245,
     "published": 1614047580,
@@ -265,8 +265,8 @@ Array [
     "uploader": "Raiko forever",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/e6/5d/e65dfadcdacfa368799f514513d824c25470bad9-1496046-1200-1918-jpg_250.jpg",
+    "haveBt": true,
     "id": "1852148",
     "pages": 69,
     "published": 1614047580,
@@ -282,8 +282,8 @@ Array [
     "uploader": "Pokom",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/e2/46/e24622170e028c2cff80d95cd8508b7274fa3125-1373734-4368-3300-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854263",
     "pages": 106,
     "published": 1614046980,
@@ -310,8 +310,8 @@ Array [
     "uploader": "kikimaru024",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/8a/35/8a356b7bcd4fcdfab88771cc62bc5ef4e1ef08ce-632626-1133-1600-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854262",
     "pages": 19,
     "published": 1614046920,
@@ -344,8 +344,8 @@ Array [
     "uploader": "Raiko forever",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/0f/cf/0fcfc7c50809f1e5b3489c96a96612e9cd60f94a-483649-1124-1600-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854260",
     "pages": 36,
     "published": 1614046800,
@@ -379,8 +379,8 @@ Array [
     "uploader": "Raiko forever",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/9e/06/9e06303582ee5d85bf0334e6c5f59d8c0cae1eeb-598643-1352-1919-png_250.jpg",
+    "haveBt": true,
     "id": "1854247",
     "pages": 23,
     "published": 1614046620,
@@ -407,8 +407,8 @@ Array [
     "uploader": "ChoriScans",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/cf/7b/cf7b119420f4c9c65fbb1fc54018819f4ac57866-470615-1052-1500-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854255",
     "pages": 26,
     "published": 1614046620,
@@ -441,8 +441,8 @@ Array [
     "uploader": "Raiko forever",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/24/a3/24a3905a8293c8fc18322f3efd752884dc85bd6e-656174-1280-1808-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854253",
     "pages": 28,
     "published": 1614046620,
@@ -479,8 +479,8 @@ Array [
     "uploader": "fdfdg",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/ab/95/ab95fa0a3f27874d5c7fd656ab3f8ab0548a0842-1301781-1754-3586-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854254",
     "pages": 69,
     "published": 1614046620,
@@ -511,8 +511,8 @@ Array [
     "uploader": "kikimaru024",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/a1/59/a159789110f63e097a01f67d19be8324ff7e93f3-846715-960-1280-jpg_250.jpg",
+    "haveBt": true,
     "id": "1853503",
     "pages": 39,
     "published": 1614046380,
@@ -535,8 +535,8 @@ Array [
     "uploader": "dullian",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/2f/f5/2ff58a1e3771491ec0f2103fdacac1174e195861-847920-1917-1078-png_250.jpg",
+    "haveBt": true,
     "id": "1854252",
     "pages": 52,
     "published": 1614046260,
@@ -569,8 +569,8 @@ Array [
     "uploader": "kikimaru024",
   },
   Object {
-    "bt": false,
     "cover": "https://ehgt.org/t/db/73/db73d963179fadcdfc31183e7a26fa49e7ea9292-8088218-1920-1080-png_250.jpg",
+    "haveBt": false,
     "id": "1854241",
     "pages": 45,
     "published": 1614046260,
@@ -606,8 +606,8 @@ Array [
     "uploader": "inmersion",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/cc/18/cc1822be281db63b5e7b84a9b249220dc38a7252-9648927-2450-3500-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854250",
     "pages": 30,
     "published": 1614046260,
@@ -629,8 +629,8 @@ Array [
     "uploader": "Supaijin",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/0c/d1/0cd15a1b74c755add529d1caf13af87ffe5b38c6-722495-1280-1081-png_250.jpg",
+    "haveBt": true,
     "id": "1854248",
     "pages": 44,
     "published": 1614046020,
@@ -660,8 +660,8 @@ Array [
     "uploader": "ymir22",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/e3/c6/e3c65309d24a2c3bdd1c5ef6fbd1c225a3f300e0-1532463-2597-4338-jpg_250.jpg",
+    "haveBt": true,
     "id": "1853053",
     "pages": 66,
     "published": 1614045420,
@@ -688,8 +688,8 @@ Array [
     "uploader": "Pokom",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/a6/25/a62575a95856c4116374c41ae1273327335dc49e-109939-960-678-jpg_250.jpg",
+    "haveBt": true,
     "id": "1854246",
     "pages": 330,
     "published": 1614045060,
@@ -708,8 +708,8 @@ Array [
     "uploader": "ROBBOO",
   },
   Object {
-    "bt": true,
     "cover": "https://ehgt.org/t/a7/be/a7be325c0783241f28cfa029c3ac567942d03c30-1018611-1720-2428-png_250.jpg",
+    "haveBt": true,
     "id": "1851519",
     "pages": 3,
     "published": 1614043980,

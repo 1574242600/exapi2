@@ -2,8 +2,8 @@
 
 exports[`解析索引html: 画廊条目信息 类型L 1`] = `
 Object {
-  "bt": true,
   "cover": "https://ehgt.org/t/27/87/27875b5d97e37fb41533aa01e090f34d886407d5-897212-982-1200-jpg_250.jpg",
+  "haveBt": true,
   "id": "1854284",
   "pages": 42,
   "published": 1614050100,
