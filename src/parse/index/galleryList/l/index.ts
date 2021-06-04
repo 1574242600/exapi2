@@ -4,7 +4,7 @@ import { LGalleryItemInfo } from "../../../../types";
 import * as parsePartial from "./partial/index";
 
 /**
- * 解析索引html: 画廊条目信息
+ * 解析L类型画廊索引Html: 解析画廊条目信息
  * 
  * @param tr Cheerio  画廊条目 \<tr\> 
  * @return string 画廊条目信息
@@ -17,19 +17,19 @@ export default function parseGalleryItem(tr: any): LGalleryItemInfo {
     const titleTd = trChildren.eq(2);
     const uploaderTd = trChildren.eq(3);
 
-    const [ id, token ] = parsePartial.beacon(titleTd);
+    const [ id, token ] = parsePartial.getBeacon(titleTd);
 
     return {
         id,
         token,
-        type: parsePartial.type(typeTd),
-        tags: parsePartial.tags(titleTd),
-        title: parsePartial.title(titleTd),
-        cover: parsePartial.cover(publishedTd),
-        bt: parsePartial.bt(publishedTd),
-        published: parsePartial.published(publishedTd),
-        rating: parsePartial.rating(publishedTd),
-        pages: parsePartial.pages(uploaderTd),
-        uploader: parsePartial.uploader(uploaderTd),
+        type: parsePartial.getType(typeTd),
+        tags: parsePartial.getTags(titleTd),
+        title: parsePartial.getTitle(titleTd),
+        cover: parsePartial.getCoverUrl(publishedTd),
+        haveBt: parsePartial.isHaveBt(publishedTd),
+        published: parsePartial.getPublished(publishedTd),
+        rating: parsePartial.getRating(publishedTd),
+        pages: parsePartial.getPages(uploaderTd),
+        uploader: parsePartial.getUploader(uploaderTd),
     };
 }

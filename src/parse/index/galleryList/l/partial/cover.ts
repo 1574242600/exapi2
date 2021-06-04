@@ -2,12 +2,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * 解析索引html: 画廊封面
- * 
+ * 解析L类型画廊条目Html: 获取画廊封面url
+ * @name getCoverUrl
  * @param td Cheerio  画廊发布时间 \<td\> 
  * @return string 画廊封面url
  */
-export default (td: any): string => {
+export default function getCoverUrl(td: any): string {
     const img = td.find(">div")
         .eq(1)
         .find(">div>img");
@@ -17,4 +17,4 @@ export default (td: any): string => {
         : img.attr("src");
 
     return src;
-};
+}

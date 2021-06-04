@@ -1,23 +1,23 @@
-import published from "./published";
-import beacon from "./beacon";
-import title from "./title";
-import type from "./type";
-import rating from "./rating";
-import bt from "./bt";
-import cover from "./cover";
-import uploader from "./uploader";
-import pages from "./pages";
-import tags from "./tags";
+import getPublished from "./published";
+import getBeacon from "./beacon";
+import getTitle from "./title";
+import getType from "./type";
+import getRating from "./rating";
+import isHaveBt from "./bt";
+import getCoverUrl from "./cover";
+import getUploader from "./uploader";
+import getPages from "./pages";
+import getTags from "./tags";
 
 export { 
-    published,
-    beacon,
-    title,
-    type,
-    rating,
-    bt,
-    cover,
-    uploader,
-    pages,
-    tags
+    getPublished,
+    getBeacon,
+    getTitle,
+    getType,
+    getRating,
+    isHaveBt,
+    getCoverUrl,
+    getUploader,
+    getPages,
+    getTags
 };
