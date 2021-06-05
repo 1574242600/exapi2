@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`解析索引html: 画廊条目信息 类型L 1`] = `
+exports[`解析画廊条目信息Html 类型L 1`] = `
 Object {
   "cover": "https://ehgt.org/t/27/87/27875b5d97e37fb41533aa01e090f34d886407d5-897212-982-1200-jpg_250.jpg",
   "haveBt": true,
