@@ -8,7 +8,7 @@ import getPageCount from "../pagesTotal";
 ///@ts-ignore
 const $ = cheerio.load(fs.readFileSync(global.__DATA_PATH__.html.index.l));
 
-describe("解析索引html: 结果总数", () => {
+describe("解析索引html: 获取结果总数", () => {
     it("正确的文本参数", () => {
         const total = getResultCount("Showing 607,545 results");
         expect(total).toBe(607545);
@@ -20,7 +20,7 @@ describe("解析索引html: 结果总数", () => {
     });
 });
 
-describe("解析索引html: 被过滤结果总数", () => {
+describe("解析索引html: 获取被过滤结果总数", () => {
     it("正确的文本参数", () => {
         const total = getFilterCount("Showing 536,350 results. Your filters excluded 1 gallery from this page");
         expect(total).toBe(1);
@@ -32,7 +32,7 @@ describe("解析索引html: 被过滤结果总数", () => {
     });
 });
 
-describe("解析索引html: 被过滤结果总数", () => {
+describe("解析索引html: 获取被过滤结果总数", () => {
     it("正确的参数", () => {
         const total = getPageCount($);
         expect(total).toBe(24302);
