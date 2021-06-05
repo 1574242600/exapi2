@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import parseLGalleryList from "./l/index";
+import parseLGalleryItem from "./l/index";
 import { IndexItemType, LGalleryItemInfo } from "../../../types";
 
 const parseListClass = {
-    l: parseLGalleryList
+    l: parseLGalleryItem
 };
 
 /**
@@ -14,8 +14,8 @@ const parseListClass = {
  * @param type valueOf<IndexItemTypeEnum> 画廊条目类型
  * @return LGalleryItemInfo 画廊列表信息
  */
-export default function galleryList($: any, type?: "l"): LGalleryItemInfo[];
-export default function galleryList($: any, type: IndexItemType = "l"): LGalleryItemInfo[] {
+export default function parseGalleryList($: any, type?: "l"): LGalleryItemInfo[];
+export default function parseGalleryList($: any, type: IndexItemType = "l"): LGalleryItemInfo[] {
     const galleryList = $("table[class='itg gltc']>tbody>tr")
         .not((_, el) => {   //排除e-hentai的广告
             return el.children.length === 1;

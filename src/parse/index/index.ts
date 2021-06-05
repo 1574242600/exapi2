@@ -1,9 +1,9 @@
 import cheerio from "cheerio";
 import { IndexItemType, IndexData } from "../../types";
-import getResultCount from "./other/resultCount";
-import getPageCount from "./other/pageCount";
-import getFilterCount from "./other/filterCount";
-import getGalleryList from "./galleryList/index";
+import getResultCount from "./other/resultsTotal";
+import getPageCount from "./other/pagesTotal";
+import getFilteredCount from "./other/filteredTotal";
+import parseGalleryList from "./galleryList/index";
 
 /**
  * 解析索引html
@@ -19,7 +19,7 @@ export default function parseIndexHtml(html: string, type: IndexItemType = "l"):
     return {
         total: getResultCount(p),
         pages: getPageCount($),
-        filter: getFilterCount(p),
-        list: getGalleryList($, type)
+        filter: getFilteredCount(p),
+        list: parseGalleryList($, type)
     };
 }
