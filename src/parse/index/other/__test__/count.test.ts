@@ -1,8 +1,8 @@
 import fs from "fs";
 import cheerio from "cheerio";
-import getResultCount from "../resultCount";
-import getFilterCount from "../filterCount";
-import getPageCount from "../pageCount";
+import getResultCount from "../resultsTotal";
+import getFilterCount from "../filteredTotal";
+import getPageCount from "../pagesTotal";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 ///@ts-ignore
