@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { LGalleryItemInfo } from "../../../../types";
-import * as parsePartial from "./meta/index";
+import * as parsePartial from "./info/index";
 
 /**
  * 解析L类型画廊索引Html: 解析画廊条目信息
