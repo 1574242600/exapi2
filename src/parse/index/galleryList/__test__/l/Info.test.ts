@@ -30,7 +30,7 @@ describe("解析画廊条目Html 类型L", () => {
     });
 
     it("获取画廊发布时间", () => {
-        const published = Info.getPublished(td.eq(1));
+        const published = Info.getPosted(td.eq(1));
 
         expect(published).toBe(1614050100);
     });
