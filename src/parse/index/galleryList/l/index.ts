@@ -27,7 +27,7 @@ export default function parseGalleryItem(tr: any): LGalleryItemInfo {
         title: parsePartial.getTitle(titleTd),
         cover: parsePartial.getCoverUrl(publishedTd),
         haveBt: parsePartial.isHaveBt(publishedTd),
-        published: parsePartial.getPublished(publishedTd),
+        posted: parsePartial.getPosted(publishedTd),
         rating: parsePartial.getRating(publishedTd),
         pages: parsePartial.getPages(uploaderTd),
         uploader: parsePartial.getUploader(uploaderTd),

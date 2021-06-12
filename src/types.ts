@@ -142,7 +142,7 @@ export interface LGalleryItemInfo {
     title: string,
     cover: string,
     haveBt: boolean,
-    published: number,
+    posted: number,
     rating: number,
     pages: number,
     uploader: string,

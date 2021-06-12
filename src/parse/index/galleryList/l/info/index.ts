@@ -1,4 +1,4 @@
-import getPublished from "./published";
+import getPosted from "./posted";
 import getBeacon from "./beacon";
 import getTitle from "./title";
 import getType from "./type";
@@ -10,7 +10,7 @@ import getPages from "./pages";
 import getTags from "./tags";
 
 export { 
-    getPublished,
+    getPosted,
     getBeacon,
     getTitle,
     getType,
