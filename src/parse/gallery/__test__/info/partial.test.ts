@@ -24,4 +24,10 @@ describe("解析画廊html", () => {
 
         expect(type).toBe("Non-H");
     });
+
+    it("获取 画廊上传者昵称", () => {
+        const name = Info.getUploaderName($("#gd3"));
+
+        expect(name).toBe("qdddswedf");
+    });
 });
