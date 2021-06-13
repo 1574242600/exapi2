@@ -147,7 +147,7 @@ export interface LGalleryItemInfo extends GalleryBeacon {
     haveBt: boolean,
     posted: number,
     rating: number,
-    pages: number,
+    length: number,
     uploader: string,
 }
 
