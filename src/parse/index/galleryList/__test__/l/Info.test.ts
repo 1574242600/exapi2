@@ -17,43 +17,43 @@ describe("解析画廊条目Html 类型L", () => {
         expect(/[a-z0-9]{10}/.test(token)).toBe(true);
     });
 
-    it("获取画廊类型", () => {
+    it("获取 画廊类型", () => {
         const type = Info.getType(td.eq(0));
 
         expect(type).toBe("Image Set");
     });
 
-    it("获取画廊标题", () => {
+    it("获取 画廊标题", () => {
         const title = Info.getTitle(td.eq(2));
 
         expect(title).toBe("[Artist] Shibekawa");
     });
 
-    it("获取画廊发布时间", () => {
+    it("获取 画廊发布时间", () => {
         const published = Info.getPosted(td.eq(1));
 
         expect(published).toBe(1614050100);
     });
 
-    it("获取画廊评分", () => {
+    it("获取 画廊评分", () => {
         const rating = Info.getRating(td.eq(1));
 
         expect(rating).toBe(4.5);
     });
 
-    it("判断画廊是否有种子", () => {
+    it("判断 画廊是否有种子", () => {
         const bt = Info.isHaveBt(td.eq(1));
 
         expect(bt).toBe(true);
     });
 
-    it("获取画廊封面url", () => {
+    it("获取 画廊封面url", () => {
         const coverUrl = Info.getCoverUrl(td.eq(1));
 
         expect(coverUrl.includes("https://ehgt.org/")).toBe(true);
     });
 
-    it("获取画廊上传者", () => {
+    it("获取 画廊上传者", () => {
         const uploader = Info.getUploader(td.eq(3));
 
         expect(uploader).toBe("Godboli");
@@ -65,7 +65,7 @@ describe("解析画廊条目Html 类型L", () => {
         expect(pages).toBe(42);
     });
 
-    it("获取画廊部分标签", () => {
+    it("获取 画廊部分标签", () => {
         const tags = Info.getTags(td.eq(2));
 
         const namespaces = Object.keys(tags);
