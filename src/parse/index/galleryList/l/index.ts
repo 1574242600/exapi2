@@ -17,7 +17,7 @@ export default function parseGalleryItem(tr: any): LGalleryItemInfo {
     const titleTd = trChildren.eq(2);
     const uploaderTd = trChildren.eq(3);
 
-    const [ id, token ] = parsePartial.getBeacon(titleTd);
+    const { id, token } = parsePartial.getBeacon(titleTd);
 
     return {
         id,

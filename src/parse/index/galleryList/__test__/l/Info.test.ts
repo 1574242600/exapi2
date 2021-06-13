@@ -11,7 +11,7 @@ describe("解析画廊条目Html 类型L", () => {
         .children();
 
     it("获取画廊 id 和 token", () => {
-        const [id, token] = Info.getBeacon(td.eq(2));
+        const { id, token } = Info.getBeacon(td.eq(2));
 
         expect(id > 0).toBe(true);
         expect(/[a-z0-9]{10}/.test(token)).toBe(true);
