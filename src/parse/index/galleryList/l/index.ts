@@ -29,7 +29,7 @@ export default function parseGalleryItem(tr: any): LGalleryItemInfo {
         haveBt: parsePartial.isHaveBt(publishedTd),
         posted: parsePartial.getPosted(publishedTd),
         rating: parsePartial.getRating(publishedTd),
-        pages: parsePartial.getPages(uploaderTd),
+        length: parsePartial.getLength(uploaderTd),
         uploader: parsePartial.getUploader(uploaderTd),
     };
 }

@@ -6,7 +6,7 @@ import getRating from "./rating";
 import isHaveBt from "./bt";
 import getCoverUrl from "./cover";
 import getUploader from "./uploader";
-import getPages from "./pages";
+import getLength from "./length";
 import getTags from "./tags";
 
 export { 
@@ -18,6 +18,6 @@ export {
     isHaveBt,
     getCoverUrl,
     getUploader,
-    getPages,
+    getLength,
     getTags
 };

@@ -59,8 +59,8 @@ describe("解析画廊条目Html 类型L", () => {
         expect(uploader).toBe("Godboli");
     });
 
-    it("获取画廊页数", () => {
-        const pages = Info.getPages(td.eq(3));
+    it("获取 画廊总页数", () => {
+        const pages = Info.getLength(td.eq(3));
 
         expect(pages).toBe(42);
     });
