@@ -20,7 +20,7 @@ export function getDefaultTitle(gd2: any): string {
     return defaultTitle;
 }
 
-export function getJPTitle(gd2: any): string {
+export function getJPTitle(gd2: any): string | null {
     try {
         const JPTitle: string = gd2.find("#gj").text();
 
