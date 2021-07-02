@@ -68,7 +68,7 @@ describe("解析画廊条目Html 类型L", () => {
     it("获取 画廊部分标签", () => {
         const result = Info.getTags(td.eq(2));
 
-        const namespaces = Object.keys(tags);
+        const namespaces = Object.keys(result);
 
         expect(namespaces.length > 0).toBe(true);
         expect(result[namespaces[0]] instanceof Array).toBe(true);
