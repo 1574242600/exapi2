@@ -15,28 +15,28 @@ describe("解析画廊html", () => {
 
     describe("画廊标题", () => {
         const gd2 = $("#gd2");
-        const [ defaultT, JPT ] = [
+        const [ summaryDef, summaryJP ] = [
             "Asaba Hiromu",
             "あさば☆ひろむ"
         ];
 
         it("获取 画廊标题", () => {
             const results = Info.getTitles(gd2);
-    
-            expect(results[0] === defaultT).toBe(true);
-            expect(results[1] === JPT).toBe(true);
+
+            expect(results[0].includes(summaryDef)).toBe(true);
+            expect(results[1].includes(summaryJP)).toBe(true);
         });
 
         it("获取 默认标题", () => {
             const result = getDefaultTitle(gd2);
     
-            expect(result === defaultT).toBe(true);
+            expect(result.includes(summaryDef)).toBe(true);
         });
 
         it("获取 日文标题", () => {
             const result = getJPTitle(gd2);
     
-            expect(result === JPT).toBe(true);
+            expect(result.includes(summaryJP)).toBe(true);
         });
        
     });
