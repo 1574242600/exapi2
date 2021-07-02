@@ -21,8 +21,8 @@ describe("测试 Client", () => {
     }); 
 
     it("Client.requestEx('/') ", async () => {
-        const text = await Client.requestEX("/").then(response => response.text());
-        expect(text).toBe("ok");
+        const result = await Client.requestEX("/").then(response => response.text());
+        expect(result).toBe("ok");
     }); 
 
 });
