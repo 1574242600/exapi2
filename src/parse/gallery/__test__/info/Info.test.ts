@@ -8,8 +8,8 @@ describe("解析画廊html", () => {
     const $ = cheerio.load(fs.readFileSync(global.__DATA_PATH__.html.gallery.m));
 
     it("获取 画廊封面url", () => {
-        const coverUrl = Info.getCoverUrl($("#gleft"));
-        expect(coverUrl.includes("https://ehgt.org/")).toBe(true);
+        const result = Info.getCoverUrl($("#gleft"));
+        expect(result.includes("https://ehgt.org/")).toBe(true);
     });
 
     it("获取 画廊标题", () => {
@@ -20,14 +20,14 @@ describe("解析画廊html", () => {
     });
 
     it("获取 画廊类型", () => {
-        const type = Info.getType($("#gd3"));
+        const result = Info.getType($("#gd3"));
 
-        expect(type).toBe("Non-H");
+        expect(result).toBe("Non-H");
     });
 
     it("获取 画廊上传者昵称", () => {
-        const name = Info.getUploaderName($("#gd3"));
+        const result = Info.getUploaderName($("#gd3"));
 
-        expect(name).toBe("qdddswedf");
+        expect(result).toBe("qdddswedf");
     });
 });
