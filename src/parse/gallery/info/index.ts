@@ -1,11 +1,11 @@
 import getCoverUrl from "./cover";
-import getTitle from "./title";
+import getTitles from "./titles";
 import getType from "./type";
 import getUploaderName from "./uploader";
 
 export { 
     getCoverUrl,
-    getTitle,
+    getTitles,
     getType,
     getUploaderName
 };
