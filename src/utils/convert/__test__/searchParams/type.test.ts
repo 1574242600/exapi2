@@ -1,9 +1,5 @@
-import { 
-    GalleryType, 
-    GalleryTypeValue,
-    GalleryTypeMap
-} from "../../../../types";
-
+import { GalleryType, GalleryTypeValue } from "../../../../types";
+import { GalleryTypeMap } from "../../../../define";
 import toTypeString from "../../searchParams/type";
 
 describe("测试 toTypeString", () => {

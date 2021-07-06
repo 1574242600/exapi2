@@ -33,16 +33,7 @@ export type IndexItemType =
     "l"     //紧凑 + 标签
 //   "e"     //扩展
 
-export const enum IndexItemTypeEnum {
-    COMPACT = "l"
-}
-
 export type ThumbnailType = "m" | "l" //m 长图 l 大图
-
-export const enum ThumbnailTypeEnum {
-    NORMAL = "m",
-    LARGE = "l"
-}
 
 export type GalleryType =
     "Doujinshi" |
@@ -67,19 +58,6 @@ export type GalleryTypeValue =
     64 |
     128 |
     1;
-
-export const GalleryTypeMap: Record<GalleryType, GalleryTypeValue> = {
-    "Doujinshi": 2,
-    "Manga": 4,
-    "Artist CG": 8,
-    "Game CG": 16,
-    "Western": 512,
-    "Non-H": 256,
-    "Image Set": 32,
-    "Cosplay": 64,
-    "Asian Porn": 128,
-    "Misc": 1
-};
 
 export type AdvancedSearchEnableParams =
     "name" | //是否搜索画廊名称

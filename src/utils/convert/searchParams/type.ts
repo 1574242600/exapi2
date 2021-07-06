@@ -1,8 +1,5 @@
-import { 
-    GalleryType, 
-    GalleryTypeValue, 
-    GalleryTypeMap 
-} from "../../../types";
+import { GalleryType, GalleryTypeValue } from "../../../types";
+import { GalleryTypeMap } from "../../../define";
 
 
 export default function toTypeString(types: number): string;
