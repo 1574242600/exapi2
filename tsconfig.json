@@ -2,10 +2,16 @@
     "compilerOptions": {
         "lib": ["es6"],
         "module": "commonjs",
+        "baseUrl": "src",
         "outDir": "./build",
         "declaration": true,
         "sourceMap": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "paths": {
+            "@utils/*": ["utils/*"],
+            "@types": ["types"],
+            "@define": ["define"]
+        }
     },
     "include": [
         "./src/**/*"
