@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { LGalleryItemInfo } from "../../../../types";
+import { LGalleryItemInfo } from "@types";
 import * as parsePartial from "./info/index";
 
 /**

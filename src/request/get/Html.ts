@@ -1,5 +1,5 @@
 import Client from "../Client";
-import { IndexItemType, ThumbnailType } from "../../types";
+import { IndexItemType, ThumbnailType } from "@types";
 
 export default class Html {
     private Client: Client;

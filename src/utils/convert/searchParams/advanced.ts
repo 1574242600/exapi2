@@ -1,4 +1,4 @@
-import { SearchParams } from "../../../types";
+import { SearchParams } from "@types";
 
 export function toEnableString(enableParams: SearchParams["advanced"]["enable"]): string {
     const queryArray = [];

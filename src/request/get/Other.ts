@@ -1,7 +1,7 @@
 import fs from "fs";
 import FormData from "form-data";
 import Client from "../Client";
-import sha1 from "../../utils/sha1";
+import sha1 from "@utils/sha1";
 
 export default class Other {
     private Client: Client;

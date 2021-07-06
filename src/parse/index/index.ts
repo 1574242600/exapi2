@@ -1,5 +1,5 @@
 import cheerio from "cheerio";
-import { IndexItemType, IndexData } from "../../types";
+import { IndexItemType, IndexData } from "@types";
 import getResultCount from "./other/resultsTotal";
 import getPageCount from "./other/pagesTotal";
 import getFilteredCount from "./other/filteredTotal";

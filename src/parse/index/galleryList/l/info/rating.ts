@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { toRating } from "../../../../../utils/convert";
+import { toRating } from "@utils/convert";
 
 /**
  * 解析L类型画廊条目Html: 获取画廊大致的评分

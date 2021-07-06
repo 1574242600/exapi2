@@ -1,5 +1,5 @@
 import fetch, { RequestInit, Response } from "node-fetch";
-import { UserCookies, ClientInit } from "../types";
+import { UserCookies, ClientInit } from "@types";
 
 export default class Client {
     private host = "https://exhentai.org";

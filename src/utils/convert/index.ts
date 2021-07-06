@@ -1,4 +1,4 @@
-import { SearchParams, FileSearchParams, Tags } from "../../types";
+import { SearchParams, FileSearchParams, Tags } from "@types";
 import * as SP from "./searchParams/index";
 
 export function toSearchParamsString(searchParams: SearchParams): string;

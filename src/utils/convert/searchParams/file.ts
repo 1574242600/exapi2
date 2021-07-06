@@ -1,4 +1,4 @@
-import { FileSearchParams } from "../../../types";
+import { FileSearchParams } from "@types";
 
 export default function toFileString(
     from?: FileSearchParams["from"],

@@ -1,4 +1,4 @@
-import { GalleryType, GalleryTypeValue } from "./types";
+import { GalleryType, GalleryTypeValue } from "@types";
 
 export const enum IndexItemTypeEnum {
     COMPACT = "l"

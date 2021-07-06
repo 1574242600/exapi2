@@ -1,5 +1,5 @@
 import Client from "../Client";
-import { ImageInfoResponse } from "../../types";
+import { ImageInfoResponse } from "@types";
 
 export default class Json {
     private Client: Client;

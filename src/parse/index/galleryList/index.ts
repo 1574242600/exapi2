@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import parseLGalleryItem from "./l/index";
-import { IndexItemType, LGalleryItemInfo } from "../../../types";
+import { IndexItemType, LGalleryItemInfo } from "@types";
 
 const parseListClass = {
     l: parseLGalleryItem

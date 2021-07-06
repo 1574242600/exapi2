@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Tags } from "../../../../../types";
-import { toTags } from "../../../../../utils/convert/index";
+import { Tags } from "@types";
+import { toTags } from "@utils/convert/index";
 
 /**
  * 解析L类型画廊条目Html: 获取画廊的部分标签

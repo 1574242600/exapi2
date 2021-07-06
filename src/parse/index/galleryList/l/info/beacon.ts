@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { GalleryBeacon } from "../../../../../types";
+import { GalleryBeacon } from "@types";
 /**
  * 解析L类型画廊条目Html: 获取 画廊 id 和 token
  * @name getBeacon

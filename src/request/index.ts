@@ -1,6 +1,6 @@
 import Client from "./Client";
 import get from "./get/index";
-import { ClientInit } from "../types";
+import { ClientInit } from "@types";
 
 export default (ClientInit: ClientInit): {
     get: ReturnType<typeof get>
